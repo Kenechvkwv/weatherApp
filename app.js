@@ -30,7 +30,7 @@ window.addEventListener("load", () => {
           temperatureDescription.textContent = summary;
           locationTimezone.textContent = data.timezone;
 
-          //Formula to convert fahrenheit ot celsius
+          //Formula to convert fahrenheit to celsius
           let celsius = (temperature - 32) * (5 / 9);
 
           //set Icons
